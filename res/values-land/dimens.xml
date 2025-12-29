@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="cps_h5_error_view_margin_top">110.0dip</dimen>
+    <dimen name="n_sdk_height_privacy_dialog_esrb_content">154.0dip</dimen>
+    <dimen name="n_sdk_height_user_info_view">90.0dip</dimen>
+    <dimen name="n_sdk_margin_bottom_link_view">16.0dip</dimen>
+    <dimen name="n_sdk_margin_left_link_view">68.0dip</dimen>
+    <dimen name="n_sdk_margin_left_privacy_dialog">68.0dip</dimen>
+    <dimen name="n_sdk_margin_right_link_view">68.0dip</dimen>
+    <dimen name="n_sdk_margin_top_link_view">24.0dip</dimen>
+    <dimen name="n_sdk_margin_top_web_error_view">110.0dip</dimen>
+    <dimen name="n_sdk_personal_data_request_dialog_width">340.0dip</dimen>
+    <dimen name="n_sdk_width_migrate_dialog">360.0dip</dimen>
+    <dimen name="n_sdk_width_suggest_game_item">186.0dip</dimen>
+    <dimen name="n_sdk_width_web_menu">498.0dip</dimen>
+</resources>

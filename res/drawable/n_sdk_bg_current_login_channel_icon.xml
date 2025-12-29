@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2.0dip" android:color="@color/n_sdk_current_login_channel_icon_ring" />
+    <solid android:color="@android:color/white" />
+    <size android:height="@dimen/n_sdk_size_current_login_channel_icon" android:width="@dimen/n_sdk_size_current_login_channel_icon" />
+</shape>

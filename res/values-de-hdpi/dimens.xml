@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="n_sdk_text_size_data_request_button">12.0dip</dimen>
+    <dimen name="n_sdk_text_size_data_request_title">12.0dip</dimen>
+    <dimen name="n_sdk_text_size_personal_info_setting">13.0dip</dimen>
+</resources>

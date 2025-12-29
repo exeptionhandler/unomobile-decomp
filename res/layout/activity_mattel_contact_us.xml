@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_container" android:background="#ffffffff" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_bar_mattel" />
+    <EditText android:gravity="start" android:id="@id/et_content" android:layout_height="210.0dip" android:layout_marginTop="81.0dip" style="@style/InputEditStyle" />
+    <EditText android:id="@id/et_email" android:layout_marginTop="21.0dip" android:singleLine="true" android:layout_below="@id/et_content" style="@style/InputEditStyle" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff4a4a4a" android:id="@id/tv_success_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="138.0dip" android:layout_marginRight="36.0dip" android:text="@string/mattel_send_success_tips" />
+    <Button android:id="@id/button" android:layout_marginTop="369.0dip" style="@style/ContinueButtonStyle" />
+</RelativeLayout>

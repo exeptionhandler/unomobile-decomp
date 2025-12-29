@@ -1,0 +1,36 @@
+{
+    "serverlist_url" : "https://uno-ota.mattel163.com/aws_publish/serverlist_mattel163.txt",
+    "backup_serverlist_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_serverlist.txt",
+
+    "version_url" : "https://uno-ota.mattel163.com/aws_publish/android_version.json",
+    "backup_version_url" : "https://mn01-ota-gcp.mattel163.com/uno-patch/aws_publish/android_version.json",
+
+    "patch_url" : "https://uno-ota.mattel163.com/aws_publish/",
+    "backup_patch_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/",
+
+    "dlc_url" : "https://mn01-ota-akamai.mattel163.com/dlc/aws_publish/",
+    "backup_dlc_url" : "https://mn01-ota-gcp.mattel163.com/dlc/aws_publish/",
+
+    "game_url" : "https://uno-ota.mattel163.com/aws_publish/",
+    "backup_game_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/",
+
+    "publicnotice_url" : "https://uno-ota.mattel163.com/aws_publish/android_publicnotice.txt",
+    "backup_publicnotice_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_android_publicnotice.txt",
+
+    "server_close_notice_url" : "https://uno-ota.mattel163.com/aws_publish/android_server_close_notice.txt",
+    "backup_server_close_notice_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_android_server_close_notice.txt",
+
+    "server_stop_notice_url" : "https://uno-ota.mattel163.com/aws_publish/android_server_stop_notice.txt",
+    "backup_server_stop_notice_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_android_server_stop_notice.txt",
+
+    "server_stop_time_url" : "https://uno-ota.mattel163.com/aws_publish/server_stop_time.txt",
+    "backup_server_stop_time_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_server_stop_time.txt",
+
+    "patch_content_url" : "https://uno-ota.mattel163.com/aws_publish/android_patch_content_{0}.txt",
+    "backup_patch_content_url" : "https://s3.amazonaws.com/uno-patch/aws_publish/backup_android_patch_content_{0}.txt",
+
+    "dlc_description_url" : "https://uno-ota.mattel163.com/aws_publish/android_dlc_description.txt",
+
+    "ipconfig_url" : "https://uno-ota.mattel163.com/aws_publish/IPConfig.txt",
+    "ipconfig_url_backup" : "https://mn01-ota-gcp.mattel163.com/uno-patch/aws_publish/IPConfig.txt"
+}

@@ -1,0 +1,279 @@
+.class public final enum Lcom/snap/corekit/metrics/models/KitType;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/squareup/wire/WireEnum;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/snap/corekit/metrics/models/KitType$ProtoAdapter_KitType;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/snap/corekit/metrics/models/KitType;",
+        ">;",
+        "Lcom/squareup/wire/WireEnum;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/squareup/wire/ProtoAdapter<",
+            "Lcom/snap/corekit/metrics/models/KitType;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final enum BITMOJI_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final enum CREATIVE_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final enum EULA_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final enum LOGIN_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final enum STORY_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+.field public static final enum UNKNOWN_KIT_TYPE:Lcom/snap/corekit/metrics/models/KitType;
+
+
+# instance fields
+.field private final value:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 14
+
+    .line 1
+    new-instance v0, Lcom/snap/corekit/metrics/models/KitType;
+
+    const-string v1, "UNKNOWN_KIT_TYPE"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2, v2}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/snap/corekit/metrics/models/KitType;->UNKNOWN_KIT_TYPE:Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 3
+    new-instance v1, Lcom/snap/corekit/metrics/models/KitType;
+
+    const-string v3, "BITMOJI_KIT"
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v3, v4, v4}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v1, Lcom/snap/corekit/metrics/models/KitType;->BITMOJI_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 5
+    new-instance v3, Lcom/snap/corekit/metrics/models/KitType;
+
+    const-string v5, "CREATIVE_KIT"
+
+    const/4 v6, 0x2
+
+    invoke-direct {v3, v5, v6, v6}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v3, Lcom/snap/corekit/metrics/models/KitType;->CREATIVE_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 7
+    new-instance v5, Lcom/snap/corekit/metrics/models/KitType;
+
+    const-string v7, "LOGIN_KIT"
+
+    const/4 v8, 0x3
+
+    invoke-direct {v5, v7, v8, v8}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v5, Lcom/snap/corekit/metrics/models/KitType;->LOGIN_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 9
+    new-instance v7, Lcom/snap/corekit/metrics/models/KitType;
+
+    const-string v9, "STORY_KIT"
+
+    const/4 v10, 0x4
+
+    invoke-direct {v7, v9, v10, v10}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v7, Lcom/snap/corekit/metrics/models/KitType;->STORY_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 17
+    new-instance v9, Lcom/snap/corekit/metrics/models/KitType;
+
+    const/4 v11, 0x7
+
+    const-string v12, "EULA_KIT"
+
+    const/4 v13, 0x5
+
+    invoke-direct {v9, v12, v13, v11}, Lcom/snap/corekit/metrics/models/KitType;-><init>(Ljava/lang/String;II)V
+
+    sput-object v9, Lcom/snap/corekit/metrics/models/KitType;->EULA_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    const/4 v11, 0x6
+
+    .line 18
+    new-array v11, v11, [Lcom/snap/corekit/metrics/models/KitType;
+
+    aput-object v0, v11, v2
+
+    aput-object v1, v11, v4
+
+    aput-object v3, v11, v6
+
+    aput-object v5, v11, v8
+
+    aput-object v7, v11, v10
+
+    aput-object v9, v11, v13
+
+    sput-object v11, Lcom/snap/corekit/metrics/models/KitType;->$VALUES:[Lcom/snap/corekit/metrics/models/KitType;
+
+    .line 37
+    new-instance v0, Lcom/snap/corekit/metrics/models/KitType$ProtoAdapter_KitType;
+
+    invoke-direct {v0}, Lcom/snap/corekit/metrics/models/KitType$ProtoAdapter_KitType;-><init>()V
+
+    sput-object v0, Lcom/snap/corekit/metrics/models/KitType;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    iput p3, p0, Lcom/snap/corekit/metrics/models/KitType;->value:I
+
+    return-void
+.end method
+
+.method public static fromValue(I)Lcom/snap/corekit/metrics/models/KitType;
+    .locals 1
+
+    if-eqz p0, :cond_5
+
+    const/4 v0, 0x1
+
+    if-eq p0, v0, :cond_4
+
+    const/4 v0, 0x2
+
+    if-eq p0, v0, :cond_3
+
+    const/4 v0, 0x3
+
+    if-eq p0, v0, :cond_2
+
+    const/4 v0, 0x4
+
+    if-eq p0, v0, :cond_1
+
+    const/4 v0, 0x7
+
+    if-eq p0, v0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    .line 1
+    :cond_0
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->EULA_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+
+    .line 2
+    :cond_1
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->STORY_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+
+    .line 3
+    :cond_2
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->LOGIN_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+
+    .line 4
+    :cond_3
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->CREATIVE_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+
+    .line 5
+    :cond_4
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->BITMOJI_KIT:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+
+    .line 6
+    :cond_5
+    sget-object p0, Lcom/snap/corekit/metrics/models/KitType;->UNKNOWN_KIT_TYPE:Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/snap/corekit/metrics/models/KitType;
+    .locals 1
+
+    .line 1
+    const-class v0, Lcom/snap/corekit/metrics/models/KitType;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/snap/corekit/metrics/models/KitType;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/snap/corekit/metrics/models/KitType;->$VALUES:[Lcom/snap/corekit/metrics/models/KitType;
+
+    invoke-virtual {v0}, [Lcom/snap/corekit/metrics/models/KitType;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/snap/corekit/metrics/models/KitType;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getValue()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/snap/corekit/metrics/models/KitType;->value:I
+
+    return v0
+.end method

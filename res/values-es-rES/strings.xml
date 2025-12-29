@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> e introduce el código que aparece más arriba.</string>
+    <string name="com_facebook_image_download_unknown_error">Se ha producido un error inesperado al descargar una imagen.</string>
+    <string name="com_facebook_internet_permission_error_message">El inicio de sesión en WebView requiere permisos de INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Error de AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Te gusta</string>
+    <string name="com_facebook_like_button_not_liked">Me gusta</string>
+    <string name="com_facebook_loading">Cargando…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuar con Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Inicia sesión con Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Salir</string>
+    <string name="com_facebook_loginview_log_out_button">Salir</string>
+    <string name="com_facebook_loginview_logged_in_as">Sesión iniciada como: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Has iniciado sesión con Facebook</string>
+    <string name="com_facebook_send_button_text">Enviar</string>
+    <string name="com_facebook_share_button_text">Compartir</string>
+    <string name="com_facebook_smart_device_instructions">Para conectar tu cuenta, abre la aplicación de Facebook en tu dispositivo móvil y comprueba las notificaciones.</string>
+    <string name="com_facebook_smart_device_instructions_or">- O -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">¿No eres tú?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirmar inicio de sesión</string>
+    <string name="com_facebook_tooltip_default">Tú decides qué información quieres compartir con las aplicaciones.</string>
+    <string name="dream_sapps_body_authenticating_ing">Autenticando…</string>
+    <string name="dream_sapps_body_contact_customer_service_to_complete_your_purchase">Ponte en contacto con el Servicio de atención al cliente para completar la compra.</string>
+    <string name="dream_sapps_body_your_purchase_is_complete">Se ha completado la compra.</string>
+    <string name="mids_sapps_body_waiting_ing">Esperando…</string>
+    <string name="mids_sapps_header_samsung_in_app_purchase_abb">Samsung In-App Purchase</string>
+    <string name="mids_sapps_header_update_galaxy_apps">Actualizar Galaxy Apps</string>
+    <string name="mids_sapps_pop_a_new_version_is_available_galaxy_apps_will_be_updated_to_the_latest_version_to_complete_this_purchase">Hay una versión nueva disponible. Se actualizará Galaxy Apps a la versión más reciente para completar esta compra.</string>
+    <string name="mids_sapps_pop_an_invalid_value_has_been_provided_for_samsung_in_app_purchase">Se ha proporcionado un valor no válido para Samsung In-App Purchase.</string>
+    <string name="mids_sapps_pop_payment_canceled">Pago cancelado.</string>
+    <string name="mids_sapps_pop_to_purchase_items_you_need_to_install_samsung_in_app_purchase_install_q">Para comprar elementos, debes instalar Samsung In-App Purchase. ¿Instalar?</string>
+    <string name="mids_sapps_pop_unable_to_open_samsung_in_app_purchase_msg">No se puede abrir Samsung In-App Purchase. Ve a Permisos y, a continuación, concede los permisos necesarios e inténtalo de nuevo.</string>
+    <string name="mids_sapps_pop_unknown_error_occurred">Error desconocido.</string>
+    <string name="snap_connect_login_button_text">Conectar con Snapchat</string>
+</resources>

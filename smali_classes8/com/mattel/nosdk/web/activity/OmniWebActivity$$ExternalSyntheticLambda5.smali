@@ -1,0 +1,42 @@
+.class public final synthetic Lcom/mattel/nosdk/web/activity/OmniWebActivity$$ExternalSyntheticLambda5;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/mattel/nosdk/web/dialog/a;
+
+.field public final synthetic f$1:Lcom/mattel/nosdk/web/activity/OmniWebActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/mattel/nosdk/web/dialog/a;Lcom/mattel/nosdk/web/activity/OmniWebActivity;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/mattel/nosdk/web/activity/OmniWebActivity$$ExternalSyntheticLambda5;->f$0:Lcom/mattel/nosdk/web/dialog/a;
+
+    iput-object p2, p0, Lcom/mattel/nosdk/web/activity/OmniWebActivity$$ExternalSyntheticLambda5;->f$1:Lcom/mattel/nosdk/web/activity/OmniWebActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lcom/mattel/nosdk/web/activity/OmniWebActivity$$ExternalSyntheticLambda5;->f$0:Lcom/mattel/nosdk/web/dialog/a;
+
+    iget-object v1, p0, Lcom/mattel/nosdk/web/activity/OmniWebActivity$$ExternalSyntheticLambda5;->f$1:Lcom/mattel/nosdk/web/activity/OmniWebActivity;
+
+    invoke-static {v0, v1, p1}, Lcom/mattel/nosdk/web/activity/OmniWebActivity;->$r8$lambda$VFNdgvR-e_vEZPcRDvG5kljd8L4(Lcom/mattel/nosdk/web/dialog/a;Lcom/mattel/nosdk/web/activity/OmniWebActivity;Landroid/view/View;)V
+
+    return-void
+.end method

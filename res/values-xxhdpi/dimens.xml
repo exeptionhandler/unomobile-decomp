@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mattel_register_go_login_button_margin_bottom">25.0dip</dimen>
+    <dimen name="mattel_register_privacy_box_margin_top">22.0dip</dimen>
+    <dimen name="mattel_register_privacy_box_padding">14.0dip</dimen>
+    <dimen name="mattel_register_privacy_check_box_margin">16.0dip</dimen>
+    <dimen name="mattel_register_title_text_size">24.0dip</dimen>
+    <dimen name="n_sdk_check_box_size_privacy_dialog">24.0dip</dimen>
+    <dimen name="n_sdk_height_agree_button_privacy_dialog">48.0dip</dimen>
+    <dimen name="n_sdk_height_privacy_dialog_esrb_content">268.0dip</dimen>
+    <dimen name="n_sdk_text_line_height_mail_check_privacy_dialog">21.0dip</dimen>
+    <dimen name="n_sdk_text_margin_h_privacy_dialog">16.0dip</dimen>
+    <dimen name="n_sdk_text_margin_v_privacy_dialog">12.0dip</dimen>
+    <dimen name="n_sdk_text_size_mail_check_privacy_dialog">14.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_agree_button">18.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_content">18.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_gdpr">15.0dip</dimen>
+    <dimen name="height_youtube_container">310.0dip</dimen>
+    <dimen name="height_youtube_view">270.0dip</dimen>
+    <dimen name="size_close_icon">30.0dip</dimen>
+    <dimen name="width_youtube_container">520.0dip</dimen>
+    <dimen name="width_youtube_view">480.0dip</dimen>
+    <dimen name="youtube_padding">5.0dip</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/n_sdk_tools_view_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="#ffb95756" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AIHelp配置信息" />
+    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="基础配置：" />
+        <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:id="@id/ai_help_config" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Push初始化：" />
+        <CheckBox android:enabled="false" android:id="@id/ai_help_push_init" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/check_color" />
+    </LinearLayout>
+</LinearLayout>

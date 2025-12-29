@@ -1,0 +1,31 @@
+.class public final Lcom/applovin/mediation/MaxDebuggerAdUnitsListActivity;
+.super Lcom/applovin/impl/o;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/applovin/impl/o;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    .locals 1
+    .param p1, "me"    # Landroid/view/MotionEvent;
+
+    const-string v0, "com.applovin"
+
+    invoke-static {v0, p1}, Lcom/safedk/android/analytics/brandsafety/DetectTouchUtils;->activityOnTouch(Ljava/lang/String;Landroid/view/MotionEvent;)V
+
+    invoke-super {p0, p1}, Lcom/applovin/impl/o;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+
+    move-result v0
+
+    return v0
+.end method

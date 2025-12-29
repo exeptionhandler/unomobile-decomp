@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="n_sdk_check_box_size_privacy_dialog">14.0dip</dimen>
+    <dimen name="n_sdk_height_agree_button_privacy_dialog">24.0dip</dimen>
+    <dimen name="n_sdk_height_privacy_dialog_esrb_content">150.0dip</dimen>
+    <dimen name="n_sdk_text_line_height_mail_check_privacy_dialog">10.0dip</dimen>
+    <dimen name="n_sdk_text_margin_h_privacy_dialog">7.0dip</dimen>
+    <dimen name="n_sdk_text_margin_v_privacy_dialog">4.0dip</dimen>
+    <dimen name="n_sdk_text_size_mail_check_privacy_dialog">7.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_agree_button">12.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_content">12.0dip</dimen>
+    <dimen name="n_sdk_text_size_privacy_dialog_gdpr">10.0dip</dimen>
+</resources>

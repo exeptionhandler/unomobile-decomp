@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="n_sdk_config_allow_sell">false</bool>
+    <bool name="n_sdk_config_debug">false</bool>
+    <bool name="n_sdk_config_enable_captcha">true</bool>
+    <bool name="n_sdk_config_enable_facebook_login">true</bool>
+    <bool name="n_sdk_config_enable_get_facebook_friends">true</bool>
+    <bool name="n_sdk_config_enable_google_login">true</bool>
+    <bool name="n_sdk_config_enable_google_saved_games">false</bool>
+    <bool name="n_sdk_config_enable_line_login">true</bool>
+    <bool name="n_sdk_config_enable_mattel_login">true</bool>
+    <bool name="n_sdk_config_enable_sentry">false</bool>
+    <bool name="n_sdk_config_enable_snapchat_login">true</bool>
+    <bool name="n_sdk_config_hide_pay_loading">true</bool>
+    <bool name="n_sdk_config_is_show_linked_channel_info_with_guest">true</bool>
+    <bool name="n_sdk_config_samsung_pay_test_mode">false</bool>
+    <bool name="n_sdk_config_silent_mode">false</bool>
+    <bool name="n_sdk_config_taiwan_sdk">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

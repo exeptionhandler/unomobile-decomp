@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff292a2f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="11.0dip" android:id="@id/function_all" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="All" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_sdk" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="SDK" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_game" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="游戏" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_push" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="推送" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_web" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="网页" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_ad" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="广告" android:textAllCaps="false" />
+            <Button android:textSize="11.0dip" android:id="@id/function_crosspromotion" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="互推" android:textAllCaps="false" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

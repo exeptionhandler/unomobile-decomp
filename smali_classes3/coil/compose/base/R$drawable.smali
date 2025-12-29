@@ -1,0 +1,53 @@
+.class public final Lcoil/compose/base/R$drawable;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcoil/compose/base/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static abc_vector_test:I = 0x7f080059
+
+.field public static ic_100tb:I = 0x7f0801a7
+
+.field public static notification_action_background:I = 0x7f080303
+
+.field public static notification_bg:I = 0x7f080304
+
+.field public static notification_bg_low:I = 0x7f080305
+
+.field public static notification_bg_low_normal:I = 0x7f080306
+
+.field public static notification_bg_low_pressed:I = 0x7f080307
+
+.field public static notification_bg_normal:I = 0x7f080308
+
+.field public static notification_bg_normal_pressed:I = 0x7f080309
+
+.field public static notification_icon_background:I = 0x7f08030a
+
+.field public static notification_template_icon_bg:I = 0x7f08030c
+
+.field public static notification_template_icon_low_bg:I = 0x7f08030d
+
+.field public static notification_tile_bg:I = 0x7f08030e
+
+.field public static notify_panel_notification_icon_bg:I = 0x7f08030f
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

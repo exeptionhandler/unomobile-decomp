@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="omni_default_ads_config">{phase10:{level:1,jumpUrl:{google:com.mattel163.phase10},materials:[{materialPath:omni_default_ads_land_p10_001,closeDelay:10,materialId:local_horizontal_phase10_001}]},skipbo:{level:1,jumpUrl:{google:com.mattel163.skipbo},materials:[{materialPath:omni_default_ads_land_skb_001,closeDelay:10,materialId:local_horizontal_skipbo_001},{materialPath:omni_default_ads_land_skb_002,closeDelay:10,materialId:local_horizontal_skipbo_002},{materialPath:omni_default_ads_land_skb_003,closeDelay:10,materialId:local_horizontal_skipbo_003}]}}</string>
+</resources>

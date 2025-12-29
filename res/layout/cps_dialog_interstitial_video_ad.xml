@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_box_frame" android:layout_width="1216.0px" android:layout_height="868.0px" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/iv_content" android:background="@drawable/cps_dialog_interstitial_ad_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:layout_centerHorizontal="true">
+        <VideoView android:id="@id/video_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/functional_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:layout_below="@id/iv_content">
+        <ImageView android:id="@id/iv_more_games" android:layout_width="358.0px" android:layout_height="106.0px" />
+        <ImageView android:id="@id/iv_download" android:layout_width="358.0px" android:layout_height="106.0px" android:layout_marginStart="36.0px" android:layout_toEndOf="@id/iv_more_games" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_close" android:layout_width="80.0px" android:layout_height="80.0px" android:layout_marginTop="@dimen/cps_close_view_margin_top" android:layout_alignTop="@id/iv_box_frame" android:layout_marginEnd="@dimen/cps_close_view_margin_right" android:layout_alignEnd="@id/iv_box_frame" />
+    <com.mattel.crosspromotion.view.CountDownProgressBar android:id="@id/count_down_view" android:layout_width="80.0px" android:layout_height="80.0px" android:layout_marginTop="@dimen/cps_close_view_margin_top" android:layout_alignTop="@id/iv_box_frame" android:layout_marginEnd="@dimen/cps_close_view_margin_right" android:layout_alignEnd="@id/iv_box_frame" app:backgroundColor="#0f000000" app:circleColor="@android:color/white" app:circleWidth="2.0dip" app:clockwise="false" app:textColor="@android:color/white" />
+</RelativeLayout>

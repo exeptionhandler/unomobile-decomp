@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/n_sdk_base_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_google_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_facebook_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_appsflyer_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_firebase_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_aihelp_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_push_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_line_tools_view" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include layout="@layout/n_sdk_snapchat_tools_view" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

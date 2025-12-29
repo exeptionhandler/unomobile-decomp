@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/n_sdk_personal_info_marketing_manage_turn_off" />
+    <item android:state_checked="true" android:drawable="@drawable/n_sdk_personal_info_marketing_manage_turn_on" />
+</selector>

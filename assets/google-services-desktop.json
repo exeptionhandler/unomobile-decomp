@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "785285164702",
+    "firebase_url": "https://api-4892202366824482544-176733.firebaseio.com",
+    "project_id": "api-4892202366824482544-176733",
+    "storage_bucket": "api-4892202366824482544-176733.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785285164702:android:59e9c86ff8c0079a",
+        "android_client_info": {
+          "package_name": "com.matteljv.uno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785285164702-im05plu945h05g9c7im822becnqq54bj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "785285164702-5l169r7qogoccnl4pdstmj6fco75q0m0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matteljv.uno",
+            "certificate_hash": "cb4dde64e1ff7e3fe4193173bcc2074f7b171f71"
+          }
+        },
+        {
+          "client_id": "785285164702-9hnsjgnej4lmqccu29d395j2v1cv61l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJTVmeEiv_1en0NU1F6T525BIG3MWxNP8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785285164702-9dprlfq26clnatmbnlsc7gsuu3gv3ki4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.netease.matteljv"
+              }
+            },
+            {
+              "client_id": "785285164702-im05plu945h05g9c7im822becnqq54bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785285164702:android:27f9eba0a568cc8832d58f",
+        "android_client_info": {
+          "package_name": "com.matteljv.uno.samsung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785285164702-ecen10ak0n06k1dcokd98j1me3ttrra5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matteljv.uno.samsung",
+            "certificate_hash": "cb4dde64e1ff7e3fe4193173bcc2074f7b171f71"
+          }
+        },
+        {
+          "client_id": "785285164702-im05plu945h05g9c7im822becnqq54bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Mzn6U8hR8pe9PuVYkSqpaVGVhZ5q-1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785285164702-gkbc5v68ndi8apkfsoit2550tqkj9jt6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "785285164702-9dprlfq26clnatmbnlsc7gsuu3gv3ki4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.netease.matteljv"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785285164702:android:cb4af945243b1b1932d58f",
+        "android_client_info": {
+          "package_name": "com.matteljv.uno.amazon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785285164702-bpqan85tmm5j2qj7fr9bt5ojfv2e16re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matteljv.uno.amazon",
+            "certificate_hash": "ee5f969c8d369e97422bd4862577ae5de6c0bbf8"
+          }
+        },
+        {
+          "client_id": "785285164702-im05plu945h05g9c7im822becnqq54bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJTVmeEiv_1en0NU1F6T525BIG3MWxNP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785285164702-im05plu945h05g9c7im822becnqq54bj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "785285164702-9dprlfq26clnatmbnlsc7gsuu3gv3ki4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.netease.matteljv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/pay_container" android:background="#ff386bb9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <ImageView android:id="@id/pay_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="38.0dip" android:src="@drawable/n_sdk_web_pay_close" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/pay_refresh" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="38.0dip" android:src="@drawable/n_sdk_web_pay_refresh" android:layout_marginEnd="56.0dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="18.0dip" android:textColor="#fffdf1a7" android:id="@id/pay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:layout_marginStart="16.0dip" />
+            </RelativeLayout>
+            <com.mattel.nosdk.web.OmniWebView android:id="@id/webview" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n_sdk_margin_top_web_error_view">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/n_sdk_web_ic_empty" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff575c66" android:layout_gravity="center_horizontal" android:id="@id/tv_page_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Page not found" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/operation_bar" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <FrameLayout android:id="@id/left_operation_menu_container" android:background="@android:color/transparent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginStart="8.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_back" android:background="@drawable/n_sdk_bg_web_menu" android:padding="5.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/n_sdk_web_ic_return" />
+            <Button android:id="@id/iv_back_click_area" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/right_operation_menu_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/default_linear_container" android:background="@drawable/n_sdk_bg_web_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_more" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/n_sdk_web_ic_more" android:layout_marginStart="10.0dip" android:layout_marginEnd="5.0dip" />
+                <View android:layout_gravity="center_vertical" android:id="@id/view_split_line" android:background="#ffe7e7e7" android:layout_width="0.5dip" android:layout_height="18.0dip" android:layout_margin="5.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_close" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/n_sdk_web_ic_close" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+            <Button android:id="@id/iv_more_click_area" android:background="@android:color/transparent" android:layout_width="33.0dip" android:layout_height="fill_parent" />
+            <Button android:id="@id/iv_close_click_area" android:background="@android:color/transparent" android:layout_width="33.0dip" android:layout_height="fill_parent" android:layout_alignEnd="@id/default_linear_container" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

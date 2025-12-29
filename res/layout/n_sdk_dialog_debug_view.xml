@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:background="#ff292a2f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radiogroup" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <RadioButton android:textColor="@drawable/n_sdk_log_type_text_color_selector" android:gravity="center" android:id="@id/radio_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="日志" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@drawable/n_sdk_log_type_text_color_selector" android:gravity="center" android:id="@id/radio_net" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="网络日志" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@drawable/n_sdk_log_type_text_color_selector" android:gravity="center" android:id="@id/radio_bi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="BI日志" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@drawable/n_sdk_log_type_text_color_selector" android:gravity="center" android:id="@id/radio_tool" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="自检工具" android:layout_weight="1.0" />
+    </RadioGroup>
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

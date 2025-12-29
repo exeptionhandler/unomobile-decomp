@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mattel_register_go_login_button_margin_bottom">10.0dip</dimen>
+    <dimen name="mattel_register_privacy_box_margin_top">12.0dip</dimen>
+    <dimen name="mattel_register_privacy_box_padding">5.0dip</dimen>
+    <dimen name="mattel_register_privacy_check_box_margin">5.0dip</dimen>
+    <dimen name="mattel_register_title_text_size">16.0dip</dimen>
+    <dimen name="height_youtube_container">256.0dip</dimen>
+    <dimen name="height_youtube_view">216.0dip</dimen>
+    <dimen name="size_close_icon">25.0dip</dimen>
+    <dimen name="width_youtube_container">424.0dip</dimen>
+    <dimen name="width_youtube_view">384.0dip</dimen>
+    <dimen name="youtube_padding">5.0dip</dimen>
+</resources>

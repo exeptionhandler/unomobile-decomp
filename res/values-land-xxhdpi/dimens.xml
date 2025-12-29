@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mattel_login_go_register_text_size">18.0dip</dimen>
+    <dimen name="mattel_register_go_login_text_size">18.0dip</dimen>
+    <dimen name="n_sdk_height_privacy_dialog_esrb_content">164.0dip</dimen>
+</resources>
